@@ -1,6 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+body p {
+    text-align: center;
+}
+
 .card {
     padding: auto;
     border-style: dashed;
     min-width: 200px;
-    
 }
